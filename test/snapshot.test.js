@@ -11,7 +11,6 @@ let data;
 let dataConverted;
 let fromService;
 let fromServicePaginated;
-let toService;
 
 function services1 () {
   const app = this;
@@ -35,12 +34,6 @@ function fromServicePaginatedConfig () {
       max: 3
     }
   }));
-}
-
-function convert (rec) {
-  rec.id = rec.__id; // feathers-memory does not add ids to rec, so fake it
-  rec.uuid = rec.__id;
-  return rec;
 }
 
 describe('snapshotutils-copy:', () => {
@@ -110,7 +103,7 @@ function sortArrayByProp (array, key) {
   });
 }
 
-function logAndThrow(msg) {
+function logAndThrow (msg) {
   return err => {
     console.log(msg, err.message);
     console.log(err.stack);
