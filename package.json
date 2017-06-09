@@ -1,7 +1,7 @@
 {
   "name": "feathers-offline-snapshot",
   "description": "Offline-first snapshot replication. Read selected records from (possibly paginated) service.",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "homepage": "https://github.com/feathersjs/feathers-offline-snapshot",
   "main": "lib/",
   "keywords": [
