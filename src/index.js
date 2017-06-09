@@ -1,6 +1,5 @@
 
 import makeDebug from 'debug';
-
 const debug = makeDebug('feathers-offline-snapshot');
 
 export default function snapshot (service, baseQuery) {
