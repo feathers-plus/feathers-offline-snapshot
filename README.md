@@ -6,7 +6,7 @@
 [![Dependency Status](https://img.shields.io/david/feathersjs/feathers-offline-snapshot.svg?style=flat-square)](https://david-dm.org/feathersjs/feathers-offline-snapshot)
 [![Download Status](https://img.shields.io/npm/dm/feathers-offline-snapshot.svg?style=flat-square)](https://www.npmjs.com/package/feathers-offline-snapshot)
 
-> Offline-first snapshot replication. Read selected records from (possibly paginated) service.
+> Offline-first snapshot strategy. Read selected records from service.
 
 
 ## Installation
@@ -21,12 +21,14 @@ npm install feathers-offline-snapshot --save
 `snapshort(service, query)`
 
 - `service` (*required*) - The service to read.
-- `query` (*optional*, default: {}) - The
+- `query` (*optional*, default: `{}`) - The
 [Feathers query object](https://docs.feathersjs.com/api/databases/querying.html)
-selecting the records to read. It may include:
-    - `$limit` (*optional*, default: 200).
-    - `$skip` (*optional*, default: 0) will skip this number of records.
-    - `$sort` (*optional*, default: {}) will sort the records.
+selecting the records to read.
+Some of the props it may include are:
+    - `$limit` (*optional*, default: 200) - Records to read at a time.
+    The service's configuration may limit the actual number read.
+    - `$skip` (*optional*, default: 0) will initially skip this number of records.
+    - `$sort` (*optional*, default: `{}`) will sort the records.
     You can sort on multiple props, for example `{ field1: 1, field2: -1 }`.
 
 
@@ -35,10 +37,12 @@ selecting the records to read. It may include:
 ```js
 const snapshot = require('feathers-offline-snapshot');
 
+const app = ... // Configure Feathers, including the `/messages` service.
 const messages = app.service('/messages');
+
 snapshot(messages, { username: 'John' })
-  .then(data => {
-    console.log(data);
+  .then(records => {
+    console.log(records);
   });
 ```
 
