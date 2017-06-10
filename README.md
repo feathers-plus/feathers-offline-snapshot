@@ -38,9 +38,10 @@ Some of the props it may include are:
 const snapshot = require('feathers-offline-snapshot');
 
 const app = ... // Configure Feathers, including the `/messages` service.
+const username = ... // The username authenticated on this client
 const messages = app.service('/messages');
 
-snapshot(messages, { username: 'John' })
+snapshot(messages, { username, $sort: { channel: 1 } })
   .then(records => {
     console.log(records);
   });
