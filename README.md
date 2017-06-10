@@ -18,7 +18,10 @@ npm install feathers-offline-snapshot --save
 
 ## Documentation
 
-`snapshort(service, query)`
+```javascript
+import snapshot from 'feathers-offline-snapshot';
+snapshort(service, query).then(records => ...);
+```
 
 - `service` (*required*) - The service to read.
 - `query` (*optional*, default: `{}`) - The
@@ -117,6 +120,6 @@ However, you can still give a telephone number.
 
 ## License
 
-Copyright (c) 2016
+Copyright (c) 2017
 
 Licensed under the [MIT license](LICENSE).
