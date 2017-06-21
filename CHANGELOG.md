@@ -1,5 +1,12 @@
 # Change Log
 
+## [v0.0.7](https://github.com/feathersjs/feathers-offline-snapshot/tree/v0.0.7) (2017-06-21)
+[Full Changelog](https://github.com/feathersjs/feathers-offline-snapshot/compare/v0.0.6...v0.0.7)
+
+**Merged pull requests:**
+
+- Greenkeeper/initial [\#2](https://github.com/feathersjs/feathers-offline-snapshot/pull/2) ([daffl](https://github.com/daffl))
+
 ## [v0.0.6](https://github.com/feathersjs/feathers-offline-snapshot/tree/v0.0.6) (2017-06-21)
 [Full Changelog](https://github.com/feathersjs/feathers-offline-snapshot/compare/v0.0.5...v0.0.6)
 
