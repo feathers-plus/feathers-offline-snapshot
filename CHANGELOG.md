@@ -1,5 +1,11 @@
 # Change Log
 
+## [v0.0.5](https://github.com/feathersjs/feathers-offline-snapshot/tree/v0.0.5) (2017-06-21)
+[Full Changelog](https://github.com/feathersjs/feathers-offline-snapshot/compare/v0.0.4...v0.0.5)
+
+## [v0.0.4](https://github.com/feathersjs/feathers-offline-snapshot/tree/v0.0.4) (2017-06-21)
+[Full Changelog](https://github.com/feathersjs/feathers-offline-snapshot/compare/v0.0.3...v0.0.4)
+
 ## [v0.0.3](https://github.com/feathersjs/feathers-offline-snapshot/tree/v0.0.3) (2017-06-21)
 [Full Changelog](https://github.com/feathersjs/feathers-offline-snapshot/compare/v0.0.2...v0.0.3)
 
