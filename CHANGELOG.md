@@ -1,5 +1,12 @@
 # Change Log
 
+## [v0.0.3](https://github.com/feathersjs/feathers-offline-snapshot/tree/v0.0.3) (2017-06-21)
+[Full Changelog](https://github.com/feathersjs/feathers-offline-snapshot/compare/v0.0.2...v0.0.3)
+
+**Closed issues:**
+
+- Action required: Greenkeeper could not be activated 🚨 [\#1](https://github.com/feathersjs/feathers-offline-snapshot/issues/1)
+
 ## [v0.0.2](https://github.com/feathersjs/feathers-offline-snapshot/tree/v0.0.2) (2017-06-10)
 [Full Changelog](https://github.com/feathersjs/feathers-offline-snapshot/compare/v0.0.1...v0.0.2)
 
