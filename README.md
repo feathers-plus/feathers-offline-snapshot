@@ -15,7 +15,6 @@
 npm install feathers-offline-snapshot --save
 ```
 
-
 ## Documentation
 
 ```javascript
