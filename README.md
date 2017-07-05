@@ -19,9 +19,7 @@ npm install feathers-offline-snapshot --save
 
 ## Documentation
 
-You can read the docs
-[here](https://docs.feathersjs.com/guides/offline-first/example-snapshot.html)
-and [here](https://docs.feathersjs.com/guides/offline-first/readme.html).
+You can read the docs [here](https://docs.feathersjs.com/guides/offline-first/readme.html).
 
 ## License
 
